@@ -1,14 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "newCourse": {
+    "id": null,
+    "title": "",
+    "authorId": null,
+    "category": ""
+  },
+  "courses": [
+    {
+      "id": 1,
+      "title": "Securing React Apps with Auth0",
+      "slug": "react-auth0-authentication-security",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 2,
+      "title": "React: The Big Picture wwwwwwwwwww",
+      "slug": "react-big-picture",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 3,
+      "title": "Creating Reusable React Components",
+      "slug": "react-creating-reusable-components",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 4,
+      "title": "Building a JavaScript Development Environment",
+      "slug": "javascript-development-environment",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 5,
+      "title": "Building Applications with React and Redux",
+      "slug": "react-redux-react-router-es6",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 6,
+      "title": "Building Applications in React and Flux",
+      "slug": "react-flux-building-applications",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 7,
+      "title": "Clean Code: Writing Code for Humans",
+      "slug": "writing-clean-code-humans",
+      "authorId": 1,
+      "category": "Software Practices"
+    },
+    {
+      "id": 8,
+      "title": "Architecting Applications for the Real World",
+      "slug": "architecting-applications-dotnet",
+      "authorId": 1,
+      "category": "Software Architecture"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "authors": [
+    {
+      "id": 1,
+      "name": "Cory House"
+    },
+    {
+      "id": 2,
+      "name": "Scott Allen"
+    },
+    {
+      "id": 3,
+      "name": "Dan Wahlin"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "email": "bob@example.com",
+      "password": "345"
+    }
+  ]
 }
